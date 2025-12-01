@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "miner-detector-mcp": {
+      "command": "/home/uweic/miniconda3/bin/python3",
+      "args": [
+        "/home/uweic/shoot/tool_mcp/multi_func_security_mcp.py"
+      ]
+    }
+  }
+}
