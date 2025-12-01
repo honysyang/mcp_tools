@@ -1,0 +1,23 @@
+
+MINER_PROCS:
+  - "my_custom_miner"
+  - "suspicious-miner-bin"
+
+MINER_CMD_PATTERNS:
+  - "suspicious-miner-flag"
+  - "stratum\\+tcp://malicious.pool.example:3333"
+
+MINER_PATHS:
+  - "/tmp/.hiddenminer"
+  - "/var/tmp/evil-*"
+
+MINER_POOLS:
+  - "malicious.pool.example"
+
+MALICIOUS_SCRIPTS:
+  - "deploy_miner.sh"
+  - "run_malware.sh"
+
+MALICIOUS_SOURCES:
+  - "malicious.example.com"
+  - "45.61.150.83"
