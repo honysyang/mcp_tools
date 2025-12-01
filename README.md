@@ -62,6 +62,19 @@ python multi_func_security_mcp.py --auth-user admin --auth-pass securepassword -
 
 - Web仪表盘与API端口默认8080，访问 `http://localhost:8080`
 - MCP工具服务（如安装fastmcp）端口为8000
+- mcp配置json
+```bash
+{
+  "mcpServers": {
+    "miner-detector-mcp": {
+      "command": "/home/uweic/miniconda3/bin/python3",
+      "args": [
+        "/home/uweic/shoot/tool_mcp/multi_func_security_mcp.py"
+      ]
+    }
+  }
+}
+```
 
 **环境参数建议**
 - 支持命令行指定API认证与日志级别，无需环境变量。
