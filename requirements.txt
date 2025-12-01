@@ -1,0 +1,14 @@
+# Core dependencies
+psutil
+PyYAML
+aiohttp
+
+# Optional / Enhancing features
+python-whois      # WHOIS lookups (optional, service will degrade if missing)
+python-dotenv     # .env support for configuration (optional)
+fastmcp          # MCP server integration (optional; if unavailable service will run in degraded mode)
+
+# Notes:
+# - Install with: pip install -r requirements.txt
+# - fastmcp may not be available in all environments; remove it if you don't intend to enable MCP.
+# - Versions are lower-bounds; adjust/pin exact versions as needed for your environment/CI.
