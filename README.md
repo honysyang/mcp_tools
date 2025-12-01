@@ -7,7 +7,7 @@
 **Multi-Function Security MCP**（多功能安全MCP）是基于Python开发的一款安全综合检测、基线审计和自动化取证工具。通过集成核心检测任务、实时日志、API及Web仪表盘，协助安全运维人员第一时间发现安全隐患、矿机活动和合规风险。
 
 ## 视频演示
-[![点击观看 Demo 视频](https://i0.hdslb.com/bfs/archive/4ac3afcdfadf211aa9fc90906527a3a1b4f326b2.jpg)](https://www.bilibili.com/video/BV1MZSzBDEZS)
+[![点击观看 Demo 视频](https://i0.hdslb.com/bfs/archive/bfd6653f4c517c3ff9e72d55b10944e58f1a6bee.jpg)](https://www.bilibili.com/video/BV1MZSzBDEZS)
 
 **主要特性：**
 - **五大安全工具任务：**
